@@ -1,0 +1,52 @@
+body
+{
+    background-color: #f8f2ec;
+
+}
+
+#content 
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+}
+
+#aboutHeader
+{
+    margin-top: 20px;
+}
+
+#greeting-button, #randomFact-button
+{
+    display: inline-block;
+}
+
+#greeting-container 
+{
+  margin-top: 20px;
+}
+
+#randomFact-container
+{
+    margin-top: 20px;
+}
+
+
+.gallery
+{
+    margin:10px 50px;
+}
+
+.gallery img
+{
+    transition: 1s;
+    padding: 15px;
+    width: 230px;
+    height: 130px;
+}
+
+header
+{
+    text-align: center;
+    font-weight: bold;
+}
