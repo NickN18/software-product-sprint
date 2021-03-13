@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Nick's Portfolio</h1>
+      <p>
+          Hey there! If you've found this page, it means you've reached my portfolio. It may not look like much, but it's honest work
+        </p>
+
+        <p>
+            Here's a link to my <a href = "https://linkedin.com/in/nicolasnoriega" target="_blank">LinkedIn</a>, if you'd like.
+            Also my <a href = "https://github.com/NickN18" target="_blank">Github</a>, where I already have some projects I've worked on and projects I'm currently working on!
+        </p>
+
+        <header id="aboutHeader">About Me</header>
+        <p>
+            My name is Nick (if you haven't seen yet). I'm a sophomore at Arizona State University currently studying Software Engineering, with plans
+            to study further into Aerospace applications, which will hopefully allow me work on things like the Perserverance rover and SpaceX's 
+            rockets.
+
+
+        </p>
+
+
+      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
+
+      <p>Choose from either button to get a random greeting or a random fact about me!</p>
+
+      <button onclick="addRandomGreeting()" id="greeting-button">Hello</button>
+      <div id="greeting-container"></div>
+
+      <button onclick = "addRandomFact()" id="randomFact-button"> Random fact</button>
+      <div id="randomFact-container"></div>
+
+
+        <p style="text-align: center;">
+            Here's a photo of <b>Madrid, Spain</b>, one of the many cities in the world that I hope to soon be able to travel to.
+        </p>
+        <img src = "images/spain-madrid.jpg" width = "400px" height = "200px" style="text-align: center;" />
+
+        <p><br></p>
+
+        <header>Here are some photos that help explain my personal interests!</header>
+        <div class = "gallery">
+            <!--<p>One of my favorite franchises is Monster Hunter. Can't for Rise on the Switch!</p> -->
+            <img src="images/MHWI_The_New_World_1024x576.jpg"/>
+            <!---<p>I've always loved to read. I'm currently working on the Dune series to get ready for the movie coming out later this year!</p> --->
+            <img src = "images/Dune_Movie.webp"/>
+            <img src = "images/star_wars_logo.png"/>
+            <img src ="images/Linkin_Park.jpg"/>
+            <img src = "images/iron_man_in_donut.jpeg"/>
+            <img src = "images/1974-chevrolet-nova-restomod.jpeg"/>
+        </div>
+
+
+        <p>
+            In order from left to right then down. <br>
+            1. Monster Hunter World, one of my favorite game franchises <br>
+            2. Dune, a novel series that I'm currently reading through <br>
+            3. Star Wars, which I absolutely love <br>
+            4. Linkin Park, one of my favorite bands of all time. <br>
+            5. Iron Man, which is the best Avenger without question. <br>
+            6. A 1974 Chevy Nova, similar to the one I'm restoring <br>
+
+        </p>
+
+
+    </div>
+  </body>
+</html>
